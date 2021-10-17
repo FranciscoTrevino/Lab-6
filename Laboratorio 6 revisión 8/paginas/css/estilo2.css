@@ -1,0 +1,23 @@
+/*Se crea un segundo archivo css para abarcar solo las características esenciales de las 3 paginas restantes*/
+.p1{
+    background: green;
+}
+.p2{
+    background: cyan; /*Cambio de color de la celda 2, pues no se veía el texto de hipervínculo*/
+}
+.p3{
+    background: red;
+}
+/*Se borra la cuarta clase, pues no se usa*/
+
+.btn{ /*Se añade la clase "btn"*/
+    background: black;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+}
+.txt{ /*Se añade la clase "txt" para los textos de las demás partes*/
+    background: white;
+    line-height: 30px;
+    font-family: Arial;
+}

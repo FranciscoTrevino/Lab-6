@@ -1,0 +1,28 @@
+body{
+    background: yellow;
+}
+.C1{
+    background: green;
+}
+.C2{
+    background: cyan;
+}
+.C3{
+    background: red;
+} /*Se borra de .p1 a .p3, pues la configuración no llega hasta ellos en este archivo*/
+.C4{/*Se borra ".p4" pues no se usa*/
+    background: crimson;
+}
+.C1, .C2, .C3, .C4{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    border: 20px solid;
+    padding: 10px;
+}
+
+.txt{ /*Se añade la clase "txt" para los textos de las demás partes*/
+    background: white;
+    line-height: 30px;
+    font-family: Arial;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html> <!--Se cambia el nombre del archivo a "index.html"-->
+    <head>
+        <title>Laboratorio 6</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    </head>
+
+    <body>
+        <h1>Seleccione una opción</h1>
+        <script>
+            function alerta(){
+                var op = confirm("¿Seguro que quieres salir?");
+                if(op==true){
+                history.back(); // Regresa a la página anterior | EDIT: es recomendable haber visitado alguna página anteriormente en la misma pestaña
+            }
+        }
+        </script>
+        
+        <table align="center" cellspacing="40"> <!--Se aumenta el espacio entre celdas-->
+            <tr>
+                <pre>
+                    <br><br><!--Se mueven los archivos a una carpeta secundaria y se agregan imagenes en lugar de texto para los botones-->
+                <td class="C1"><a href="paginas/html.html"><img src="img/html.png" height="70px" width="70px"></a></td>
+                <td class="C2"><a href="paginas/css.html"><img src="img/css.png" height="70px" width="70px"></a></td>
+                </pre>
+            </tr>
+            <tr>
+                <td class="C3"><a href="paginas/javascript.html"><img src="img/jscript.png" height="70px" width="70px"></a></td>
+                <td class="C4"><a id="back" href="javascript:alerta();"><img src="img/salir.png" height="70px" width="70px"></a></td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
