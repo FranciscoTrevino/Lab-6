@@ -1,0 +1,12 @@
+body{
+    background: yellow;
+}
+
+.C1{
+    background: blue;
+}
+.C2{ /*Probando medidas para realizar los botones*/
+    background: crimson;
+    height: 80px;
+    width: 80px;
+}
