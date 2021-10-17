@@ -1,0 +1,22 @@
+body{
+    background: yellow;
+}
+.C1{
+    background: green;
+}
+.C2{
+    background: cyan; /*Cambio de color de la celda 2, pues no se veía el texto de hipervínculo*/
+}
+.C3{
+    background: red;
+}
+.C4{
+    background: crimson;
+}
+.C1, .C2, .C3, .C4{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    border: 20px solid;
+    padding: 10px;
+}
