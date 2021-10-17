@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html> <!--Se cambia el nombre del archivo a "index.html"-->
+    <head>
+        <title>Laboratorio 6</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    </head>
+
+    <body>
+        <script>
+            function alerta(){ //Experimentando con "history.back"
+                var op = confirm("¿Seguro que quieres salir?");
+                if(op==true){
+                history.back(); // Regresa a la página anterior
+            }
+        }
+        </script>
+
+        <table align="center" cellspacing="10">
+            <tr>
+                <pre>
+                    <br><br><br><br><br><br>
+                <td class="C1"><a href="html.html">HTML</a></td>
+                <td class="C2"><a href="css.html">CSS</a></td>
+                </pre>
+            </tr>
+            <tr>
+                <td class="C3"><a href="jscript.html">Javascript</a></td>
+                <td class="C4"><a id="back" href="javascript:alerta();">Salir</a></td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
