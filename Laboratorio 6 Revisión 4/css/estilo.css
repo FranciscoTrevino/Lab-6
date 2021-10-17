@@ -1,0 +1,23 @@
+body{
+    background: yellow;
+}
+
+.C1{
+    background: green;
+}
+.C2{
+    background: blue;
+}
+.C3{
+    background: red;
+}
+.C4{
+    background: crimson;
+}
+.C1, .C2, .C3, .C4{/*Probando las medidas abarcando menos lineas al poner las clases en una sola cadena
+                    Se agregan las demás celdas*/
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    border: 20px solid;
+}
