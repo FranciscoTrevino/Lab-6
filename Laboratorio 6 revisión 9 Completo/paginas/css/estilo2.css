@@ -1,0 +1,25 @@
+
+.p1{
+    background: green;
+}
+.p2{
+    background: cyan; 
+}
+.p3{
+    background: red;
+}
+.enc{ /*Añadida la clase "enc" para los encabezados de html, css y javascript*/
+    text-align: center;
+}
+
+.btn{ 
+    background: black;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+}
+.txt{
+    background: white;
+    line-height: 30px;
+    font-family: Arial;
+}
